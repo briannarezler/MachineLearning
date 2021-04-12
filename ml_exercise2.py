@@ -17,6 +17,8 @@ print(nyc.head(3))
 
 # print(nyc.Value.values)
 
+nyc.Date = nyc.Date.floordiv(100)
+
 from sklearn.model_selection import train_test_split
 
 X_train, X_test, y_train, y_test = train_test_split(

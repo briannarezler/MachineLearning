@@ -53,7 +53,8 @@ sns.set(font_scale=1.1)
 
 sns.set_style("whitegrid")
 
-grid = sns.pairplot(data=dataset_df, vars=dataset_df.columns[0:8])
+grid = sns.pairplot(data=dataset_df, vars=dataset_df.columns[0:3])
+# grid = sns.pairplot(data=dataset_df, vars=dataset_df.columns[0:8])
 
 import matplotlib.pyplot as plt
 
